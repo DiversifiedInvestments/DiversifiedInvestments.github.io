@@ -109,19 +109,32 @@
 
 	header {
 		margin-bottom: 2em;
+        color:#fff;
 	}
 
     .example h3{
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
-	color: #F8ECBF;
+	color: #FFF;
 	font-size: 45px;
     }
+
+    .cover-pics li{
+        display: inline;
+    }
+    
+    .cover-pics img{
+        padding-top: 5.5em;
+        padding-bottom: 0;
+        align-items: center;
+    }
+
 
 
     header p {
         display: block;
-        margin:  0 0 0;
-        padding: 0 0 0.5em 0;
+        font-size: 25px;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-style: oblique;
 		}
 
 	footer {
@@ -581,6 +594,7 @@
 				}
 
 				.main.style2.left {
+             
 				}
 
 					.main.style2.left:after {
@@ -649,6 +663,8 @@
     .profileText{
         float:left;
         width:65%;
+        padding-left: 1em;
+        color: #fff;
     }
 
 	/* Dark */
@@ -822,8 +838,8 @@
 		left: 0;
 		top: 0;
 		width: 100%;
-		background: #fff;
-		background: rgba(255,255,255,0.95);
+		background: #666;
+		overflow:hidden;
 		height: 3em;
 		line-height: 3em;
 		box-shadow: 0 0 0.15em 0 rgba(0,0,0,0.1);
@@ -879,11 +895,10 @@
 /*********************************************************************************/
 
 	#intro {
-		background: url('images/AftonMtn/mountain%20pics%20002.jpg');
-		background-size: cover;
+		background: url(images/diagmonds.png);
 		background-attachment: fixed, fixed;
 		background-position: top left, bottom center;
-		background-repeat: no-repeat;
+		overflow:hidden;
 	}
 
 /*********************************************************************************/
@@ -891,9 +906,10 @@
 /*********************************************************************************/
 
 	#one {
-		background: url('images/Beach/Sandbridge%20trip......2011%20023.jpg');
+        background: url('images/beach-clouds-cloudy-1679.jpg');
 		background-size: cover;
-		background-attachment: fixed, fixed, no-repeat;
+		background-attachment: fixed;
+		background-position: right;
         background-repeat: no-repeat;
 	}
 
@@ -905,7 +921,7 @@
 		background: url('images/D%20I%20Co.%20project%20sign%20003.jpg');
 		background-size: cover;
 		background-attachment: fixed;
-		background-position: top left;
+		background-position: right;
         background-repeat: no-repeat;
 	}
 
@@ -914,12 +930,18 @@
 /*********************************************************************************/
 
 	#work {
-        background:url('images/HighGround/High%20Ground%202012%20007.jpg');
+        background:url('images/alaska-forest-hills-792.jpg');
         background-size: cover;
 		background-attachment: fixed;
 		background-position: top left;
         background-repeat: no-repeat;
 	}
+
+
+
+    #work h2, p{
+        text-shadow: 1px 1px 1px #666;
+    }
 
 		#work .row.images {
 		}
@@ -973,11 +995,15 @@
 	#contact {
 		padding-bottom: 0;
 		overflow: hidden;
+        background: url(images/black_lozenge.png);
 	}
 
 		#contact .box {
 			position: relative;
-			bottom: 0;
+			bottom: 25px;
+            opacity: 80%;
+            background-color: #666;
+            color: white;
 
 			-moz-transition: all 1s ease;
 			-webkit-transition: all 1s ease;
