@@ -120,12 +120,14 @@
 
     .cover-pics li{
         display: inline;
+        padding: 10px;
     }
     
     .cover-pics img{
         padding-top: 5.5em;
         padding-bottom: 0;
         align-items: center;
+        border-radius: 50%;
     }
 
 
@@ -895,7 +897,7 @@
 /*********************************************************************************/
 
 	#intro {
-		background: url(images/diagmonds.png);
+		background: url('images/tweed/tweed.png');
 		background-attachment: fixed, fixed;
 		background-position: top left, bottom center;
 		overflow:hidden;
@@ -995,7 +997,7 @@
 	#contact {
 		padding-bottom: 0;
 		overflow: hidden;
-        background: url(images/black_lozenge.png);
+        background: url(images/tweed/tweed.png);
 	}
 
 		#contact .box {
